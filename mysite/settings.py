@@ -18,6 +18,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
+ALLOWED_HOSTS=['127.0.0.1', '.pythonanywhere.com']
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '!@z%#ftqw%^qhxi%s(mt+37$5rea4f8$0bsvhg%3(hd5urkggt'
@@ -120,4 +121,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR,"static")
-ALLOWED_HOSTS=['127.0.0.1', '.pythonanywhere.com']
+
